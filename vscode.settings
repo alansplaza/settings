@@ -1,0 +1,19 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    //-------- 编辑器配置 --------
+
+    // 控制字体系列。
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+
+    // 控制字体大小。
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Flatland_Dark",
+    "workbench.welcome.enabled": true,
+    
+    
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [75],
+    "editor.minimap.enabled": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.renderIndentGuides": true
+}
