@@ -9,5 +9,5 @@
     "tab_size": 4,
     "theme": "Flatland Dark.sublime-theme",
     "translate_tabs_to_spaces": true,
-    "rulers": [79],
+    "rulers": [80],
 }
