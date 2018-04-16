@@ -10,3 +10,4 @@ filetype plugin indent on
 set cursorline
 set mouse=a
 set colorcolumn=80
+colorscheme afterglow
