@@ -11,3 +11,28 @@ set cursorline
 set mouse=a
 set colorcolumn=80
 colorscheme afterglow
+
+autocmd BufNewFile *.[ch],*.hpp,*.cpp,Makefile,*.mk,*.sh,*.py exec ":call SetTitle()"   
+  
+" python
+func SetComment()  
+    call setline(4, "#########################################################") 
+    call setline(5, "#   Copyright (C) ".strftime("%Y")." Bytedance. All rights reserved")  
+    call setline(6, "#")
+    call setline(7, "#   Filename: ".expand("%:t")) 
+    call setline(8, "#   Author: pengzonghui")  
+    call setline(9, "#   Email: pengzonghui@bytedance.com")  
+    call setline(10, "#   Create time: ".strftime("%Y-%m-%d"))  
+    call setline(11, "#########################################################") 
+    call setline(12, "")  
+    call setline(13, "")  
+endfunc   
+  
+func SetTitle()    
+    if expand("%:e") == 'py'   
+        call setline(1, "#!/usr/bin/env python")   
+        call setline(2, "#-*- coding: utf-8 -*-")  
+        call setline(3, "")
+    endif
+    call SetComment()  
+endfunc 
