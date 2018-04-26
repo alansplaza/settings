@@ -17,7 +17,7 @@ autocmd BufNewFile *.[ch],*.hpp,*.cpp,Makefile,*.mk,*.sh,*.py exec ":call SetTit
 " python
 func SetComment()  
     call setline(4, "#########################################################") 
-    call setline(5, "#   Copyright (C) ".strftime("%Y")." Bytedance. All rights reserved")  
+    call setline(5, "#   Copyright (C) ".strftime("%Y")." XXXXXXX. All rights reserved.")  
     call setline(6, "#")
     call setline(7, "#   Filename: ".expand("%:t")) 
     call setline(8, "#   Author: pengzonghui")  
