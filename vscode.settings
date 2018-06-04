@@ -6,16 +6,17 @@
     "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
 
     // 控制字体大小。
-    "editor.fontSize": 14,
+    "editor.fontSize": 18,
     "workbench.colorTheme": "Flatland_Dark",
-    "workbench.welcome.enabled": true,
     
     
     "editor.renderWhitespace": "none",
-    "editor.rulers": [100],
+    "editor.rulers": [80],
     "editor.minimap.enabled": true,
     "editor.renderLineHighlight": "gutter",
     "editor.renderIndentGuides": true,
 
-    "python.linting.enabled": false
+    "python.linting.enabled": false,
+
+    "terminal.integrated.fontSize": 18,
 }
