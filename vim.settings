@@ -10,7 +10,7 @@ filetype plugin indent on
 set cursorline
 set mouse=a
 set colorcolumn=80
-colorscheme afterglow
+colorscheme monokai
 
 autocmd BufNewFile *.[ch],*.hpp,*.cpp,Makefile,*.mk,*.sh,*.py exec ":call SetTitle()"   
   
